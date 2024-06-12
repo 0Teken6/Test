@@ -1,3 +1,9 @@
 from art import tprint
-tprint("PYTHON")
+from class1 import Hello2
+
+
+ex = Hello2('Hi', 'BlaBla')
+
+tprint(ex.str)
+tprint(ex.compliment)
 
